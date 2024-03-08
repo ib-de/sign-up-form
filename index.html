@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css"/>
+</head>
+<body>
+    
+    <form>
+            <div>
+                <div class="box"><h2>signup form</h2></div>
+            <label for="Users Id">Users id</label><br>
+            <input class="input-box" type="text" id="Users id" maxlength="10" required pattern="[A-Za-z-123]">
+          </div>
+               
+          <div>
+            <label for="Password">Password</label><br>
+            <input class="input-box" type="password" id="Pasword"maxlength="14" minlength="8" required pattern="[A-Za-z-123]"/>
+          </div>
+            <div>
+                <label for="Name">Name</label><br>
+                <input class="input-box" type="text" id="Name" required pattern="[A-Za-z]"/>
+              </div>
+              <div>
+                <label for="country">Country</label><br>
+                <select name="country" class="input-box" type="text" id="Country">
+                   <option value="country">Select an Option</option>
+                   <option value="Nigeria">Nigeria</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="USA">USA</option>
+                    <option value="Spain">spain</option>
+                    <option value="Portugal">Portugal</option>
+                    </select></div>
+
+                <div>
+                    <label for="Zip code">Zip code</label><br>
+                    <input class="input-box" type="text" id="Zip code" required maxlength="6" minlength="3"/></div>
+                    <div>
+                        <label for="Email">Email</label><br>
+                        <input class="input-box" type="email" id="Email" required/>
+
+                      </div>
+                      <div>
+                        <label for="submit">submit</label><br>
+                        <input class="input-botton" type="submit" id="submit"/>
+                        <!-- <button  id="button" type="submit">submit</button> -->
+                      </div>
+                      
+               
+    </form>
+    
+</body>
+</html>
